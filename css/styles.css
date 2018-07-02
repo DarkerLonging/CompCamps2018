@@ -1,0 +1,17 @@
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: #5800E8
+}
+
+h1 {
+  color: #06C4FF
+}
+
+p {
+  color: #06C4FF
+}

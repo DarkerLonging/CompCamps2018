@@ -9,9 +9,28 @@ body {
 }
 
 h1 {
-  color: #06C4FF
+  color: #06C4FF;
 }
 
 p {
-  color: #06C4FF
+  color: #06C4FF;
+}
+
+ul {
+  color: #06C4FF;
+  padding: 0;
+  background-image: none;
+  list-style-image: url('../images/okay.jpg');
+}
+
+a {
+  color: #06C4FF;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Shrikhand', cursive;
+
 }

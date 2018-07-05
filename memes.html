@@ -10,19 +10,38 @@
 
     <div class="nav">
       <ul>
-        <li><a href="https://www.compcamps.com/">CompCamps</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Mah Projects</a></li>
+        <li class="button"><a href="https://www.compcamps.com/">CompCamps</a></li>
+        <li class="button"><a href="index.html">Home</a></li>
+        <li class="button"><a href="projects.html">Mah Projects</a></li>
+        <li class="button"><a href="about.html">About Me</a></li>
       </ul>
     </div>
-    <img src="images/trumpmeme.jpg" alt="Awesome Trump Meme.">
-    <img src="images/happybirthday.jpg" alt="Birthday Monkey">
-    <img src="images/internetguide.jpg" alt="The Internet Guide">
-    <img src="images/nogod.jpg" alt="No God NOOOOOOOO">
-    <img src="images/noonecares.jpg" alt="No One Cares">
-    <img src="images/zuckerberg.jpg" alt="Steal Zuckerbergs Looks">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img class="memes" src="images/trumpmeme.jpg" alt="Awesome Trump Meme.">
+    <img class="memes" src="images/happybirthday.jpg" alt="Birthday Monkey">
+    <img class="memes" src="images/internet guide.jpg" alt="The Internet Guide">
+    <img class="memes" src="images/nogod.jpg" alt="No God NOOOOOOOO">
+    <img class="memes" src="images/noonecares.jpg" alt="No One Cares">
+    <img class="memes" src="images/zuckerberg.jpg" alt="Steal Zuckerbergs Looks">
+    <img class="memes" src="images/OneDoesNotSimply.jpg" alt="One Does Not Simply">
+    <img class="memes" src="images/Officer.jpg" alt="The Officer">
+    <img class="memes" src="images/Toasters.jpg" alt="Toasters Are Tanning Beds">
+    <img class="memes" src="images/TellMeMore.jpeg" alt="Please Tell Me More">
+    <img class="memes" src="images/ThatsALotOfDamage.jpg" alt="Thats A Lot Of Damage">
+    <img class="memes" src="images/FreeRealEstate.jpg" alt="Its Free Real Estate">
+    <img class="memes, center" src="images/diabeetus.jpg" alt="Most Interesting Man">
+
+    <audio id="robloxDeathElement">
+      <source src="sounds/roblox-death-sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+      $(document).on('click','body *',function(){
+        var robloxDeath = document.getElementById("robloxDeathElement");
+        robloxDeath.play();
+      });
+    </script>
+
+
   </body>
 </html>

@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-<link rel="stylesheet" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <meta charset="utf-8">
     <title>Andrew's CompCamps Website</title>
+
   </head>
   <body>
     <div class="nav">
       <ul>
-        <li><a href="https://www.compcamps.com/">CompCamps</a></li>
-        <li><a href="projects.html">Mah Projects</a></li>
-        <li><a href="memes.html">Wall O' Memes</a></li>
+        <li class="button"><a href="https://www.compcamps.com/">CompCamps</a></li>
+        <li class="button"><a href="projects.html">Mah Projects</a></li>
+        <li class="button"><a href="memes.html">Wall O' Memes</a></li>
+        <li class="button"><a href="about.html">About Me</a></li>
       </ul>
     </div>
-
     <h1 class="center">I WILL BE RIGHT BACK</h1>
     <p class="center">SOMEBODY TOUCHED MY SPAGETT</p>
     <br>
-    <img class="center" src="images/Spagett.jpg" alt="This would be Spagett">
+    <img class="center mainpicture" src="images/Spagett.jpg" alt="This would be Spagett">
+
+    <audio id="robloxDeathElement">
+      <source src="sounds/roblox-death-sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+      $(document).on('click','body *',function(){
+        var robloxDeath = document.getElementById("robloxDeathElement");
+        robloxDeath.play();
+      });
+    </script>
 
   </body>
 </html>

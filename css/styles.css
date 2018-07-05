@@ -1,3 +1,24 @@
+@keyframes mainpicture {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes mainpicture {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.mainpicture{
+  animation-name: mainpicture;
+  animation-delay: 0.5s;
+  -webkit-animation-name: mainpicture;
+  -webkit-animation-delay: 0.5s;
+  animation-duration: 4s;
+}
+
+
+
+
 .center {
   display: block;
   margin: 0 auto;
@@ -5,26 +26,46 @@
 }
 
 body {
-  background-color: #5800E8
+background-image: repeating-radial-gradient(#905FE8, #5EC9E8 10%, #E88135 15%);
+margin: 0px;
+width: 100%;
 }
 
 h1 {
-  color: #06C4FF;
+  color: #040404;
 }
 
+h3 {
+  color: #040404;
+}
 p {
-  color: #06C4FF;
+  color: #040404;
 }
 
 ul {
-  color: #06C4FF;
+  color: #040404;
   padding: 0;
   background-image: none;
-  list-style-image: url('../images/okay.jpg');
+  padding: 10px;
 }
 
+ul:hover {
+  background-color: #7200FF
+}
+
+
 a {
-  color: #06C4FF;
+  color: #040404;
+}
+
+.button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
 }
 
 li {
@@ -32,4 +73,35 @@ li {
   font-size: 20px;
   padding: 10px;
   font-family: 'Shrikhand', cursive;
+}
+
+.memes {
+  height: 325px;
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+
+.nav {
+  margin: 0px;
+  padding: 0px;
+  background-color: #E8670C
+
+}
+
+.zelda {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+  height: 400px;
+  }
+
+.cplusplus {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 650px;
+  height: 700px;
 }
